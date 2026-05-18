@@ -99,6 +99,74 @@
 
 ---
 
+## 🎨 Lynx Brand Themes Pack
+
+In addition to the 8 core Lynx themes, this extension ships **50 developer-brand-inspired variants** (100 theme files in total — a dark and a light variant for every brand). Every brand theme keeps the full Lynx UI coverage (450+ color keys, semantic tokens, syntax scopes) and replaces the signature `#00d882` accent with the brand's official identity color while preserving the universal diagnostic palette (`#ff5c6a` error, `#f5c842` warning, `#4dc9ff` info).
+
+Pick one from the **VS Code theme picker** — every entry is named **"`{Brand}` Dark / Light  (Lynx Brand)"**.
+
+<details>
+  <summary><strong>(𝗖𝗹𝗶𝗰𝗸) Show the full list of 50 brand themes</strong></summary>
+
+| Brand | Dark | Light |
+| :---- | :--: | :---: |
+| Angular | ✓ | ✓ |
+| Astro | ✓ | ✓ |
+| AWS | ✓ | ✓ |
+| Azure | ✓ | ✓ |
+| Bun | ✓ | ✓ |
+| Cloudflare | ✓ | ✓ |
+| Datadog | ✓ | ✓ |
+| Deno | ✓ | ✓ |
+| DigitalOcean | ✓ | ✓ |
+| Discord | ✓ | ✓ |
+| Django | ✓ | ✓ |
+| Docker | ✓ | ✓ |
+| Figma | ✓ | ✓ |
+| Firebase | ✓ | ✓ |
+| GitHub | ✓ | ✓ |
+| GitLab | ✓ | ✓ |
+| Go | ✓ | ✓ |
+| Google Cloud | ✓ | ✓ |
+| Heroku | ✓ | ✓ |
+| Kotlin | ✓ | ✓ |
+| Kubernetes | ✓ | ✓ |
+| Laravel | ✓ | ✓ |
+| Linear | ✓ | ✓ |
+| MongoDB | ✓ | ✓ |
+| Netlify | ✓ | ✓ |
+| Next.js | ✓ | ✓ |
+| Notion | ✓ | ✓ |
+| npm | ✓ | ✓ |
+| Nuxt | ✓ | ✓ |
+| PostgreSQL | ✓ | ✓ |
+| Python | ✓ | ✓ |
+| Raycast | ✓ | ✓ |
+| React | ✓ | ✓ |
+| Redis | ✓ | ✓ |
+| Remix | ✓ | ✓ |
+| Rust | ✓ | ✓ |
+| Slack | ✓ | ✓ |
+| Spotify | ✓ | ✓ |
+| Spring | ✓ | ✓ |
+| Stripe | ✓ | ✓ |
+| Supabase | ✓ | ✓ |
+| Svelte | ✓ | ✓ |
+| Swift | ✓ | ✓ |
+| Tailwind CSS | ✓ | ✓ |
+| Terraform | ✓ | ✓ |
+| Twilio | ✓ | ✓ |
+| TypeScript | ✓ | ✓ |
+| Vercel | ✓ | ✓ |
+| Vite | ✓ | ✓ |
+| Vue | ✓ | ✓ |
+
+</details>
+
+<br>
+
+---
+
 ## Installation
 
 Launch _Quick Open_ depending on your operating system:

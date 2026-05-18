@@ -22,6 +22,33 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
+## [Unreleased]
+
+### Added
+
+- **Lynx Brand Themes Pack**: A new collection of 50 developer brand-inspired themes (100 theme files in total — dark and light variants for each brand). Each theme keeps the full Lynx Pro UI coverage (450+ color keys, semantic tokens, syntax scopes) and routes the brand's official accent through every surface, while preserving the universal diagnostic palette (`#ff5c6a` error / `#f5c842` warning / `#4dc9ff` info) and the dim brand-tinted comment dimming pattern.
+  - **Web platforms**: GitHub, GitLab, Vercel, Netlify, Cloudflare, DigitalOcean, Heroku
+  - **Containers & orchestration**: Docker, Kubernetes
+  - **Cloud providers**: AWS, Google Cloud, Azure
+  - **Backends as a service**: Firebase, Supabase
+  - **Databases**: MongoDB, PostgreSQL, Redis
+  - **Payments / comms**: Stripe, Twilio, Slack, Discord
+  - **Design / productivity**: Figma, Notion, Linear, Raycast
+  - **UI / framework**: Tailwind CSS, Next.js, Nuxt, Svelte, Vue, React, Angular, Astro, Remix, Vite
+  - **Languages**: Rust, Go, Python, TypeScript, Swift, Kotlin
+  - **Runtimes**: Deno, Bun, npm
+  - **Server frameworks**: Laravel, Django, Spring
+  - **Infrastructure / observability**: Terraform, Datadog
+  - **Other**: Spotify
+- **Generator pipeline**: New `scripts/generate-brand-theme.js` derives the brand variants from `01_Lynx-Dark-theme.json` and `02_Lynx-Light-theme.json` so every brand stays in sync with the canonical Lynx base, including auto-corrected accent lightness to keep function colors at ≥ 3:1 contrast against the editor surface.
+- **QA harness**: New `scripts/qa-contrast.js` audits text / function / comment / error contrast ratios across all 100 themes. All themes pass the configured WCAG thresholds.
+
+### Documentation
+
+- Updated `ARCHITECTURE.md` with the `src/themes/brands/` directory structure and the brand generator pipeline.
+- Updated `README.md` with a Brand Themes Pack section listing all 50 brands.
+
+---
 ## [5.1.1] - 2026-05-09
 
 ### Added

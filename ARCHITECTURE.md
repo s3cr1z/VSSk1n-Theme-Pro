@@ -18,8 +18,13 @@ Lynx-Theme-Pro/
 │   │   ├── 05_fury/
 │   │   ├── 06_kiro/
 │   │   ├── 07_nvim/
-│   │   └── blur-theme/         # 🧪 Experimental JS/CSS injection engine
-│   │       └── blur-theme.js
+│   │   ├── blur-theme/         # 🧪 Experimental JS/CSS injection engine
+│   │   │   └── blur-theme.js
+│   │   └── brands/             # 🎨 50 brand-themed variants (100 files)
+│   │       ├── github/
+│   │       │   ├── github-dark-theme.json
+│   │       │   └── github-light-theme.json
+│   │       └── …                # 49 other brand directories
 │   ├── icons/                  # Icon system (JSON configs)
 │   │   ├── a-style/            # Style A — icon mappings
 │   │   ├── b-style/            # Style B — icon mappings
@@ -27,6 +32,10 @@ Lynx-Theme-Pro/
 │   └── assets/
 │       ├── svg/                # 1280+ SVG icon files
 │       └── woff/               # Font assets
+├── scripts/                    # 🛠 Dev-only tooling (excluded from VSIX)
+│   ├── brand-configs.js        # 50 brand definitions (accent, secondary, bgs)
+│   ├── generate-brand-theme.js # Derives brand variants from base templates
+│   └── qa-contrast.js          # WCAG contrast audit for every theme
 ├── public/
 │   ├── images/                 # Banner, star badge, etc.
 │   └── screenshots/            # Theme & icon preview images
