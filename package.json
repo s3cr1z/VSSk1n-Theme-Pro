@@ -100,6 +100,21 @@
         "label": "8. LIQUIDㅤㅤ(Lynx Theme) 🧪",
         "uiTheme": "vs-dark",
         "path": "./src/themes/08_Lynx-Liquid-theme.json"
+      },
+      {
+        "label": "9. GITHUBㅤㅤ(Lynx Theme)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/09_Lynx-GitHub-theme.json"
+      },
+      {
+        "label": "10. SPOTIFYㅤ(Lynx Theme)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/10_Lynx-Spotify-theme.json"
+      },
+      {
+        "label": "11. REFLEXㅤㅤ(Lynx Theme)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/11_Lynx-Reflex-theme.json"
       }
     ],
     "iconThemes": [
