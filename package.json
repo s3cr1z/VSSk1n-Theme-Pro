@@ -53,12 +53,10 @@
   "sponsor": {
     "url": "https://github.com/sponsors/bastndev"
   },
-
   "main": "./dist/themes/liquid-theme/liquid-theme.js",
   "activationEvents": [
     "onStartupFinished"
   ],
-
   "contributes": {
     "themes": [
       {
@@ -102,19 +100,504 @@
         "path": "./src/themes/08_Lynx-Liquid-theme.json"
       },
       {
-        "label": "9. GITHUBㅤㅤ(Lynx Theme)",
+        "label": "Angular Darkㅤ(Lynx Brand)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/09_Lynx-GitHub-theme.json"
+        "path": "./src/themes/brands/angular/angular-dark-theme.json"
       },
       {
-        "label": "10. SPOTIFYㅤ(Lynx Theme)",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/10_Lynx-Spotify-theme.json"
+        "label": "Angular Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/angular/angular-light-theme.json"
       },
       {
-        "label": "11. REFLEXㅤㅤ(Lynx Theme)",
+        "label": "Astro Darkㅤ(Lynx Brand)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/11_Lynx-Reflex-theme.json"
+        "path": "./src/themes/brands/astro/astro-dark-theme.json"
+      },
+      {
+        "label": "Astro Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/astro/astro-light-theme.json"
+      },
+      {
+        "label": "AWS Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/aws/aws-dark-theme.json"
+      },
+      {
+        "label": "AWS Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/aws/aws-light-theme.json"
+      },
+      {
+        "label": "Azure Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/azure/azure-dark-theme.json"
+      },
+      {
+        "label": "Azure Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/azure/azure-light-theme.json"
+      },
+      {
+        "label": "Bun Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/bun/bun-dark-theme.json"
+      },
+      {
+        "label": "Bun Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/bun/bun-light-theme.json"
+      },
+      {
+        "label": "Cloudflare Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/cloudflare/cloudflare-dark-theme.json"
+      },
+      {
+        "label": "Cloudflare Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/cloudflare/cloudflare-light-theme.json"
+      },
+      {
+        "label": "Datadog Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/datadog/datadog-dark-theme.json"
+      },
+      {
+        "label": "Datadog Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/datadog/datadog-light-theme.json"
+      },
+      {
+        "label": "Deno Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/deno/deno-dark-theme.json"
+      },
+      {
+        "label": "Deno Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/deno/deno-light-theme.json"
+      },
+      {
+        "label": "DigitalOcean Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/digitalocean/digitalocean-dark-theme.json"
+      },
+      {
+        "label": "DigitalOcean Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/digitalocean/digitalocean-light-theme.json"
+      },
+      {
+        "label": "Discord Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/discord/discord-dark-theme.json"
+      },
+      {
+        "label": "Discord Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/discord/discord-light-theme.json"
+      },
+      {
+        "label": "Django Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/django/django-dark-theme.json"
+      },
+      {
+        "label": "Django Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/django/django-light-theme.json"
+      },
+      {
+        "label": "Docker Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/docker/docker-dark-theme.json"
+      },
+      {
+        "label": "Docker Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/docker/docker-light-theme.json"
+      },
+      {
+        "label": "Figma Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/figma/figma-dark-theme.json"
+      },
+      {
+        "label": "Figma Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/figma/figma-light-theme.json"
+      },
+      {
+        "label": "Firebase Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/firebase/firebase-dark-theme.json"
+      },
+      {
+        "label": "Firebase Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/firebase/firebase-light-theme.json"
+      },
+      {
+        "label": "GitHub Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/github/github-dark-theme.json"
+      },
+      {
+        "label": "GitHub Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/github/github-light-theme.json"
+      },
+      {
+        "label": "GitLab Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/gitlab/gitlab-dark-theme.json"
+      },
+      {
+        "label": "GitLab Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/gitlab/gitlab-light-theme.json"
+      },
+      {
+        "label": "Go Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/go/go-dark-theme.json"
+      },
+      {
+        "label": "Go Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/go/go-light-theme.json"
+      },
+      {
+        "label": "Google Cloud Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/gcloud/gcloud-dark-theme.json"
+      },
+      {
+        "label": "Google Cloud Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/gcloud/gcloud-light-theme.json"
+      },
+      {
+        "label": "Heroku Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/heroku/heroku-dark-theme.json"
+      },
+      {
+        "label": "Heroku Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/heroku/heroku-light-theme.json"
+      },
+      {
+        "label": "Kotlin Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/kotlin/kotlin-dark-theme.json"
+      },
+      {
+        "label": "Kotlin Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/kotlin/kotlin-light-theme.json"
+      },
+      {
+        "label": "Kubernetes Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/kubernetes/kubernetes-dark-theme.json"
+      },
+      {
+        "label": "Kubernetes Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/kubernetes/kubernetes-light-theme.json"
+      },
+      {
+        "label": "Laravel Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/laravel/laravel-dark-theme.json"
+      },
+      {
+        "label": "Laravel Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/laravel/laravel-light-theme.json"
+      },
+      {
+        "label": "Linear Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/linear/linear-dark-theme.json"
+      },
+      {
+        "label": "Linear Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/linear/linear-light-theme.json"
+      },
+      {
+        "label": "MongoDB Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/mongodb/mongodb-dark-theme.json"
+      },
+      {
+        "label": "MongoDB Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/mongodb/mongodb-light-theme.json"
+      },
+      {
+        "label": "Netlify Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/netlify/netlify-dark-theme.json"
+      },
+      {
+        "label": "Netlify Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/netlify/netlify-light-theme.json"
+      },
+      {
+        "label": "Next.js Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/nextjs/nextjs-dark-theme.json"
+      },
+      {
+        "label": "Next.js Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/nextjs/nextjs-light-theme.json"
+      },
+      {
+        "label": "Notion Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/notion/notion-dark-theme.json"
+      },
+      {
+        "label": "Notion Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/notion/notion-light-theme.json"
+      },
+      {
+        "label": "npm Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/npm/npm-dark-theme.json"
+      },
+      {
+        "label": "npm Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/npm/npm-light-theme.json"
+      },
+      {
+        "label": "Nuxt Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/nuxt/nuxt-dark-theme.json"
+      },
+      {
+        "label": "Nuxt Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/nuxt/nuxt-light-theme.json"
+      },
+      {
+        "label": "PostgreSQL Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/postgresql/postgresql-dark-theme.json"
+      },
+      {
+        "label": "PostgreSQL Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/postgresql/postgresql-light-theme.json"
+      },
+      {
+        "label": "Python Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/python/python-dark-theme.json"
+      },
+      {
+        "label": "Python Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/python/python-light-theme.json"
+      },
+      {
+        "label": "Raycast Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/raycast/raycast-dark-theme.json"
+      },
+      {
+        "label": "Raycast Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/raycast/raycast-light-theme.json"
+      },
+      {
+        "label": "React Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/react/react-dark-theme.json"
+      },
+      {
+        "label": "React Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/react/react-light-theme.json"
+      },
+      {
+        "label": "Redis Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/redis/redis-dark-theme.json"
+      },
+      {
+        "label": "Redis Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/redis/redis-light-theme.json"
+      },
+      {
+        "label": "Remix Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/remix/remix-dark-theme.json"
+      },
+      {
+        "label": "Remix Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/remix/remix-light-theme.json"
+      },
+      {
+        "label": "Rust Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/rust/rust-dark-theme.json"
+      },
+      {
+        "label": "Rust Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/rust/rust-light-theme.json"
+      },
+      {
+        "label": "Slack Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/slack/slack-dark-theme.json"
+      },
+      {
+        "label": "Slack Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/slack/slack-light-theme.json"
+      },
+      {
+        "label": "Spotify Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/spotify/spotify-dark-theme.json"
+      },
+      {
+        "label": "Spotify Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/spotify/spotify-light-theme.json"
+      },
+      {
+        "label": "Spring Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/spring/spring-dark-theme.json"
+      },
+      {
+        "label": "Spring Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/spring/spring-light-theme.json"
+      },
+      {
+        "label": "Stripe Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/stripe/stripe-dark-theme.json"
+      },
+      {
+        "label": "Stripe Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/stripe/stripe-light-theme.json"
+      },
+      {
+        "label": "Supabase Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/supabase/supabase-dark-theme.json"
+      },
+      {
+        "label": "Supabase Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/supabase/supabase-light-theme.json"
+      },
+      {
+        "label": "Svelte Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/svelte/svelte-dark-theme.json"
+      },
+      {
+        "label": "Svelte Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/svelte/svelte-light-theme.json"
+      },
+      {
+        "label": "Swift Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/swift/swift-dark-theme.json"
+      },
+      {
+        "label": "Swift Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/swift/swift-light-theme.json"
+      },
+      {
+        "label": "Tailwind CSS Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/tailwindcss/tailwindcss-dark-theme.json"
+      },
+      {
+        "label": "Tailwind CSS Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/tailwindcss/tailwindcss-light-theme.json"
+      },
+      {
+        "label": "Terraform Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/terraform/terraform-dark-theme.json"
+      },
+      {
+        "label": "Terraform Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/terraform/terraform-light-theme.json"
+      },
+      {
+        "label": "Twilio Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/twilio/twilio-dark-theme.json"
+      },
+      {
+        "label": "Twilio Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/twilio/twilio-light-theme.json"
+      },
+      {
+        "label": "TypeScript Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/typescript/typescript-dark-theme.json"
+      },
+      {
+        "label": "TypeScript Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/typescript/typescript-light-theme.json"
+      },
+      {
+        "label": "Vercel Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/vercel/vercel-dark-theme.json"
+      },
+      {
+        "label": "Vercel Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/vercel/vercel-light-theme.json"
+      },
+      {
+        "label": "Vite Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/vite/vite-dark-theme.json"
+      },
+      {
+        "label": "Vite Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/vite/vite-light-theme.json"
+      },
+      {
+        "label": "Vue Darkㅤ(Lynx Brand)",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/brands/vue/vue-dark-theme.json"
+      },
+      {
+        "label": "Vue Lightㅤ(Lynx Brand)",
+        "uiTheme": "vs",
+        "path": "./src/themes/brands/vue/vue-light-theme.json"
       }
     ],
     "iconThemes": [
@@ -147,8 +630,7 @@
       }
     ]
   },
-
-    "scripts": {
+  "scripts": {
     "vscode:prepublish": "bun run package",
     "compile": "node esbuild.js",
     "watch": "node esbuild.js --watch",
@@ -156,7 +638,7 @@
     "lint": "eslint .",
     "check-types": "tsc --noEmit"
   },
-    "devDependencies": {
+  "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/node": "^25.6.0",
     "@types/vscode": "^1.75.0",
